@@ -16,7 +16,11 @@ public class MoreCustomiseExPratice {
                 int result = numerator[i] / denominator[i];
                 System.out.println(result);
             } catch (WrongDivisionException e) {
-                throw new RuntimeException(e);
+                System.out.println(e.getMessage());
+            } catch (ArithmeticException e){
+                System.out.println("Division for 0 does not exist!");
+            } catch (ArrayIndexOutOfBoundsException e){
+                System.out.println("Not numerators enough");
             }
         }
 
