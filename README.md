@@ -55,6 +55,6 @@ Este repositório demonstra minha progressão no aprendizado de Java backend, de
 
 ---
 
-## 📌 Observação
+## Observação
 
 O foco deste repositório é educacional e prático, refletindo minha jornada de aprendizado na construção de aplicações backend com Java.
